@@ -1,0 +1,87 @@
+/*
+ * The contents of this file are subject to the terms of the Common Development and
+ * Distribution License (the License). You may not use this file except in compliance with the
+ * License.
+ *
+ * You can obtain a copy of the License at legal/CDDLv1.0.txt. See the License for the
+ * specific language governing permission and limitations under the License.
+ *
+ * When distributing Covered Software, include this CDDL Header Notice in each file and include
+ * the License file at legal/CDDLv1.0.txt. If applicable, add the following below the CDDL
+ * Header, with the fields enclosed by brackets [] replaced by your own identifying
+ * information: "Portions copyright [year] [name of copyright owner]".
+ *
+ * Copyright 2015-2017 ForgeRock AS.
+ */
+
+/* formata tela ACRLoginFingerprint2 */
+
+.ACRLoginFingerprint2 label:first-child span:after {
+    content: ":"
+}
+
+/*
+.ACRLoginFingerprint2 .form-group:nth-of-type(1) input {
+    display: none;
+}
+*/
+
+.ACRLoginFingerprint2 .form-group:nth-of-type(2),
+.ACRLoginFingerprint2 .form-group:nth-of-type(3),
+.ACRLoginFingerprint2 .form-group:nth-of-type(4),
+.ACRLoginFingerprint2 .form-group:nth-of-type(5),
+.ACRLoginFingerprint2 .form-group:nth-of-type(6),
+.ACRLoginFingerprint2 .form-group:nth-of-type(7){
+    display: none;
+}
+
+.ACRLoginFingerprint2 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    width: 80%;
+    border-radius: 4px;    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#erroLeitorBiometria {
+    display: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#divImagemBiometria {
+    position: relative;
+}
+
+#buttonTentarNovamente {
+    display: none;
+}
+
+#fingerText {
+    position: absolute;
+    top: 35px;
+    width: 260px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #002D4B;
+    background-color: #ebebeb;
+}
+
+#divNome {
+    text-align: center;
+}
+
+.ACRLoginTOTP3 .form-group:nth-of-type(4),
+.ACRLoginTOTP3 .form-group:nth-of-type(5),
+.ACRLoginTOTP3 .form-group:nth-of-type(6){
+    display: none;
+}
+
+#recaptcha_element {
+    margin-top: 10px; 
+    margin-bottom: 15px; 
+    position: relative;
+    margin-left: 25%;        
+}
